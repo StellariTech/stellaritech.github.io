@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin-top: 60px; /* Space for the fixed header */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure header is above all other content */
+}
+
+header h1 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header h1 img {
+  height: 1.5rem; /* Adjust as needed */
+  margin-right: 0.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+main > section {
+  padding: 2rem;
+  min-height: 100vh; /* Full page height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+}
+
+main > section > h1,
+main > section > h2 {
+  margin-bottom: 2rem;
+}
+
+main > section > * {
+  /* Direct children of each section */
+  max-width: 70%; /* Limit the width */
+  width: 100%; /* Ensure it takes up the full width up to the max-width */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+#hero {
+  background-color: black;
+}
+
+#about {
+  background-color: #333;
+}
+
+#services {
+  background-color: #555;
+  padding-bottom: 4rem; /* Extra padding for readability */
+}
+
+#services article {
+  margin-bottom: 2rem; /* Space between service sections */
+}
+
+#services ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#services li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+#contact {
+  background-color: #777;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0088cc;
+}
