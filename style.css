@@ -12,10 +12,10 @@ li {
 html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  /* overflow: hidden; */
+  /* make background fixed */
+  background-attachment: fixed;
 }
 .stars {
-  /* fixed */
   position: fixed;
 }
 #stars {
@@ -595,7 +595,6 @@ section > h2 {
 body {
   /* font-family: Arial, sans-serif; */
   font-family: "lato", sans-serif;
-  background-color: black;
   color: white;
   margin-top: 60px; /* Space for the fixed header */
 }
@@ -664,6 +663,7 @@ main > section > * {
   margin: 0 auto; /* Center the content horizontally */
 }
 
+/* 
 #hero {
   background: radial-gradient(ellipse at bottom, #1b1725 0%, #090a0f 100%);
 }
@@ -676,6 +676,12 @@ main > section > * {
   background: radial-gradient(ellipse at bottom, #2b2735 0%, #090a0f 100%);
 }
 
+
+#contact {
+  background: radial-gradient(ellipse at bottom, #2b4735 0%, #090a0f 100%);
+}
+*/
+
 #services article {
   margin-bottom: 2rem; /* Space between service sections */
 }
@@ -687,10 +693,6 @@ main > section > * {
 
 #services li {
   margin-bottom: 0.5rem; /* Space between list items */
-}
-
-#contact {
-  background: radial-gradient(ellipse at bottom, #2b4735 0%, #090a0f 100%);
 }
 
 footer {
