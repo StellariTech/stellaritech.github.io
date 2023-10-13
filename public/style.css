@@ -14,6 +14,7 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   /* make background fixed */
   background-attachment: fixed;
+  font-family: "Exo 2", sans-serif;
 }
 .stars {
   position: fixed;
@@ -23,7 +24,7 @@ html {
   height: 1px;
   background: transparent;
   box-shadow: 1374px 1676px #fff, 214px 271px #fff, 1187px 318px #fff,
-    188px 1079px #fff, 529px 1188px #fff, 103px 1150px #fff, 454px 609px #fff,
+    188px 1079px #272525, 529px 1188px #fff, 103px 1150px #fff, 454px 609px #fff,
     700px 1799px #fff, 1688px 807px #fff, 1825px 1774px #fff, 1516px 1605px #fff,
     1909px 836px #fff, 1754px 897px #fff, 86px 816px #fff, 1658px 1149px #fff,
     187px 845px #fff, 1473px 846px #fff, 811px 1260px #fff, 1606px 1845px #fff,
@@ -593,8 +594,6 @@ section > h2 {
 }
 
 body {
-  /* font-family: Arial, sans-serif; */
-  font-family: "lato", sans-serif;
   color: white;
   margin-top: 60px; /* Space for the fixed header */
 }
