@@ -15,6 +15,7 @@ html {
   /* make background fixed */
   background-attachment: fixed;
   font-family: "Exo 2", sans-serif;
+  scroll-behavior: smooth;
 }
 .stars {
   position: fixed;
