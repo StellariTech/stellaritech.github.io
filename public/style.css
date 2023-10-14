@@ -16,6 +16,7 @@ html {
   background-attachment: fixed;
   font-family: "Exo 2", sans-serif;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 .stars {
   position: fixed;
@@ -649,6 +650,8 @@ main > section {
   flex-direction: column;
   justify-content: center; /* Vertically center the content */
   align-items: center; /* Horizontally center the content */
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 main > section > h1,
@@ -699,6 +702,8 @@ footer {
   text-align: center;
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.8);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 a {
