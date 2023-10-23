@@ -677,24 +677,25 @@ main > section > * {
   margin: 0 auto; /* Center the content horizontally */
 }
 
-/* 
 #hero {
-  background: radial-gradient(ellipse at bottom, #1b1725 0%, #090a0f 100%);
+  text-align: center;
 }
 
-#about {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+.button-cta {
+  display: block;
+  background-color: #00aaff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  transition: background-color 0.3s;
+  width: 20rem;
 }
 
-#services {
-  background: radial-gradient(ellipse at bottom, #2b2735 0%, #090a0f 100%);
+.button-cta:hover {
+  background-color: #7b4747;
+  color: #fff;
 }
-
-
-#contact {
-  background: radial-gradient(ellipse at bottom, #2b4735 0%, #090a0f 100%);
-}
-*/
 
 #services article {
   margin-bottom: 2rem; /* Space between service sections */
@@ -707,6 +708,12 @@ main > section > * {
 
 #services li {
   margin-bottom: 0.5rem; /* Space between list items */
+}
+
+#contact iframe {
+  border-radius: 1rem;
+  background-color: #fff;
+  margin: 2rem 0;
 }
 
 footer {
